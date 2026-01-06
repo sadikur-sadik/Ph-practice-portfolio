@@ -138,7 +138,7 @@ nav ul a{
   vertical-align: middle;
 }
 
-#about {
+#about ,#resume,#skills{
   padding-top: 130px;
 
 }
@@ -168,10 +168,7 @@ nav ul a{
 
 }
 
-#skills{
-  padding-top:130px;
-  
-}
+
 #skills .skills-container{
   width:71%;
   max-width: 1140px;
@@ -209,3 +206,44 @@ nav ul a{
   line-height: 28px;
   
 }
+
+.resume-container{
+
+  max-width: 1140px;
+  width: 71%;
+  margin: 113px auto 0px;
+
+}
+.resume-container{
+  display: flex;
+  gap:24px;
+}
+.resume-container .section-title{
+  font-size:30px ;
+  color:#474747;
+  margin:0px 0px 30px 0px;
+
+}
+
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
+
+
+}
+.card-title{
+
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom:10px;
+  color:#474747;
+
+}
+
+.card-infos{
+  color:#757575;
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 10px;
+}
+hr{margin:30px 0px 30px;}
